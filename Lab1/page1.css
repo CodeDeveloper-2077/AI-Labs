@@ -97,6 +97,9 @@ h2 {
     display: flex;
     justify-content: space-between;
     column-gap: 170.5px;
+    border: 2px solid black;
+    padding: 12px;
+    border-radius: 4px;
 }
 
 .general-info h3 {
@@ -176,6 +179,10 @@ button:hover {
     max-width: 1016px;
 }
 
+.grow-together > div > .block {
+    border: 3px dashed green;
+}
+
 .grow-together,
 .your-users {
     width: 100%;
@@ -234,6 +241,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 2px dotted black;
 }
 
 .flowing-conversation .wrapper {
@@ -394,6 +402,11 @@ button {
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
+}
+
+.your-users > .flexbox > .block {
+    border: 2px solid black;
+    border-radius: 50%;
 }
 
 button:hover {
@@ -684,6 +697,10 @@ button:hover {
     .footer-section {
         flex-direction: column;
         align-items: center;
+    }
+
+    footer {
+        width: 375px;
     }
 
     form {

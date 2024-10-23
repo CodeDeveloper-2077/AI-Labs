@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Your Tasks</h1>
+            <img src="./imgs/47-to-do-list.gif" alt="" />
+        </header>
+        <section class="search"><input type="text" placeholder="Search" /></section>
+        <section class="tasks">
+        </section>
+        <section class="task-form">
+            <form method="post">
+                <input type="text" placeholder="Description" id="description" />
+                <input type="text" placeholder="2000-01-01" onfocus="(this.type='date')" onblur="(this.type='text')"
+                    id="date" />
+                <button type="submit">Save</button>
+            </form>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>

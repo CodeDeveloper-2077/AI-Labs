@@ -89,6 +89,23 @@ header {
     margin-bottom: 30px;
 }
 
+.general-info {
+    border: 4px double cyan;
+    border-radius: 20px;
+}
+
+.grow-together > div > .block {
+    border: 2px dashed #ff4a4a;
+}
+
+.flowing-conversation {
+    border: 8px dotted #673ab7;
+}
+
+.your-users > .flexbox > .block {
+    border: 1px solid black;
+}
+
 .get-started {
     color: white;
     background-color: #ff5a5f;

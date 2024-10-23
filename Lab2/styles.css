@@ -1,0 +1,150 @@
+/* General styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana', sans-serif;
+    background-color: #f8f9fa; /* Very light background */
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+
+}
+
+.search {
+    margin-right: 30px;
+}
+
+/* Search input styles */
+section input[type="text"][placeholder="Search"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ffd700; /* Gold border */
+    border-radius: 8px;
+    background-color: #fff8dc; /* Light gold background */
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 20px;
+    outline: none;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+section input[type="text"][placeholder="Search"]:focus {
+    border-color: #ffa500; /* Orange border on focus */
+    background-color: #fff4e0; /* Lighter orange background */
+}
+
+/* Task item styles */
+.tasks article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e3f2fd; /* Light blue background */
+    padding: 14px;
+    border: 2px solid #bbdefb; /* Blue border */
+    border-radius: 8px;
+    margin: 12px 0;
+    transition: background-color 0.3s;
+}
+
+.tasks article:hover {
+    background-color: #d0e4f7; /* Slightly darker blue on hover */
+}
+
+.tasks input[type="checkbox"] {
+    transform: scale(1.3);
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.tasks span {
+    flex-grow: 1;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #333; /* Dark text color */
+}
+
+.tasks input[type="text"] {
+    padding: 8px;
+    border: 2px solid #ffcccb; /* Light red border */
+    border-radius: 6px;
+    background-color: #ffe4e1; /* Light pink background */
+    color: #333;
+    font-size: 14px;
+    margin-right: 10px;
+    width: 160px;
+    outline: none;
+}
+
+.tasks input[type="text"]:focus {
+    border-color: #ff6f61; /* Darker red border on focus */
+}
+
+.tasks button {
+    background-color: #ff6f61; /* Bright red button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tasks button:hover {
+    background-color: #e55a50; /* Slightly darker red on hover */
+}
+
+/* Task form styles */
+.task-form form {
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.task-form input[type="text"] {
+    flex: 1;
+    padding: 12px;
+    border: 2px solid #aed581; /* Light green border */
+    border-radius: 8px;
+    background-color: #f1f8e9; /* Light green background */
+    color: #333;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    outline: none;
+}
+
+.task-form input[type="text"]:focus {
+    border-color: #7cb342; /* Darker green border on focus */
+}
+
+.task-form button[type="submit"] {
+    background-color: #64b5f6; /* Bright blue button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.task-form button[type="submit"]:hover {
+    background-color: #42a5f5; /* Darker blue on hover */
+}
