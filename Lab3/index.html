@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaflet Map Puzzle</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <div id="controls">
+        <button id="locationButton">My Location</button>
+        <button id="downloadMapButton">Download Map</button>
+    </div>
+
+    <div id="map-container">
+        <div id="locationMap" class="map-section">
+            <div id="map"></div>
+        </div>
+        <div id="staticMap" class="map-section">
+            <img id="mapImage" alt="Map Image" />
+        </div>
+        <div id="puzzlePieces" class="map-section">
+            <div id="puzzleArea"></div>
+        </div>
+        <div id="solutionSection" class="map-section">
+            <div id="solutionArea"></div>
+        </div>
+    </div>
+
+    <div id="notificationArea"></div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="leaflet-image.js"></script>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
