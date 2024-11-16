@@ -6,6 +6,33 @@ body {
     padding: 20px;
 }
 
+#locationButton,
+#downloadMapButton {
+    background: linear-gradient(135deg, #6a5acd, #8a2be2);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#locationButton:hover,
+#downloadMapButton:hover {
+    background: linear-gradient(135deg, #8a2be2, #6a5acd);
+    transform: translateY(-3px);
+}
+
+#locationButton:active,
+#downloadMapButton:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
 #controls {
     margin-bottom: 20px;
 }
